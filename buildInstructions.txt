@@ -1,0 +1,4 @@
+cd ~/Desktop/CardGame/CardGame/build
+cmake ..         # re-configure after CMakeLists.txt change
+cmake --build .   # rebuild
+./CardGame        # run

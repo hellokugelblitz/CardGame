@@ -1,0 +1,4 @@
+/home/jack/Desktop/CardGame/CardGame/build/CMakeFiles/CardGame.dir
+/home/jack/Desktop/CardGame/CardGame/build/CMakeFiles/glad.dir
+/home/jack/Desktop/CardGame/CardGame/build/CMakeFiles/edit_cache.dir
+/home/jack/Desktop/CardGame/CardGame/build/CMakeFiles/rebuild_cache.dir
