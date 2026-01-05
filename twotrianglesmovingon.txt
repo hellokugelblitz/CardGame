@@ -61,84 +61,96 @@ int main() {
     Shader secondShader("../shaders/shaderlearningv.glsl", "../shaders/greentest.glsl");
 
     // vector specification
-    float quad_verticies[] = {
-    //  x     y     z      r     g     b     Texture Coordinates
-        0.5f, 0.5f, 0.0f,  0.0f, 1.0f, 0.0f, 1.0f, 1.0f,  // top - right
-        0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0f,  // bottom - right
-       -0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 0.0f,  // bottom - left 
-       -0.5f, 0.5f, 0.0f,  0.0f, 0.0f, 1.0f, 0.0f, 1.0f,  // top - left 
+    float triangle_one[] = {
+    //   x      y     z     r     g     b
+        -0.9f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f,  // left 
+        -0.0f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, // right
+        -0.45f, 0.5f, 0.0f, 0.0f, 0.0f, 1.0f // top 
     }; 
 
-    // valid ordering: 0, 3, 1 & 3, 2, 1  (respecting counter clockwise winding)
-    unsigned int index_buffer_data[] = {
-        0,3,1,
-        3,2,1
+    float triangle_two[] = {
+    //  x      y     z     r     g     b
+        0.0f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f,  // left
+        0.9f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, // right
+        0.45f, 0.5f, 0.0f, 0.0f, 0.0f, 1.0f // top 
     };
 
+    // triangle rendering...
+
     // Generate our vertex specification stuff
-    unsigned int VertexBufferObject, VertexArrayObject, ElementBufferObject;
-    glGenVertexArrays(1, &VertexArrayObject);
-    glGenBuffers(1, &VertexBufferObject);
-    glGenBuffers(1, &ElementBufferObject);
+    unsigned int VertexBufferOne, VertexArrayOne, VertexBufferTwo, VertexArrayTwo;
+    glGenVertexArrays(1, &VertexArrayOne);
+    glGenVertexArrays(1, &VertexArrayTwo);
+    glGenBuffers(1, &VertexBufferOne);
+    glGenBuffers(1, &VertexBufferTwo);
     
-    // ------------------------ QUAD ------------------------
+    // ------------------------ Triangle One ------------------------
 
     // bind our VAO and VBO
-    glBindVertexArray(VertexArrayObject); // tell openGL that we are now using this array
-    glBindBuffer(GL_ARRAY_BUFFER, VertexBufferObject);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ElementBufferObject);
+    glBindVertexArray(VertexArrayOne); // tell openGL that we are now using this array
+    glBindBuffer(GL_ARRAY_BUFFER, VertexBufferOne);
 
     // RAINBOWS
 
     // defining position attribute
     // This line here is super important. It captures the currently bound GL_ARRAY_BUFFER and saves it as a reference, linking the two
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
     // defining color attribute
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3* sizeof(float)));
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3* sizeof(float)));
     glEnableVertexAttribArray(1);
 
-    // defining texture attribute
-    glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6* sizeof(float)));
-    glEnableVertexAttribArray(2);
-
     // insert data into the buffer
-    glBufferData(GL_ARRAY_BUFFER, sizeof(quad_verticies), quad_verticies, GL_STATIC_DRAW);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(index_buffer_data), index_buffer_data, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(triangle_one), triangle_one, GL_STATIC_DRAW);
 
+    // ------------------------ Triangle Two ------------------------
+
+    // BIND & SET VAO ATRRIBUTES
+    glBindVertexArray(VertexArrayTwo);
+    glBindBuffer(GL_ARRAY_BUFFER, VertexBufferTwo);
+
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
+    glEnableVertexAttribArray(0);
+
+    // defining color attribute
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3* sizeof(float)));
+    glEnableVertexAttribArray(1);
+
+    // LOAD DATA INTO SECOND BUFFER
+    glBufferData(GL_ARRAY_BUFFER, sizeof(triangle_two), triangle_two, GL_STATIC_DRAW);
+    
     glBindVertexArray(0); // unbinds the vertex array entirely.
-
 
     // ------------------------ Textures ------------------------
 
     // texture object creation and settings
 
-    unsigned int texture; // unsigned int array
-    glGenTextures(1, &texture); // pass in the address of the ID.
-    glBindTexture(GL_TEXTURE_2D, texture); // bind similarly to the VAO and VBO objects in context
+    // unsigned int texture; // unsigned int array
+    // glGenTextures(GL_TEXTURE_2D, &texture); // pass in the address of the ID.
+    // glBindTexture(GL_TEXTURE_2D, texture); // bind similarly to the VAO and VBO objects in context
 
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR); // as we go down in object size (and so less pizels on the screen) please use the minmap we generate
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR); // no need to use the minmap for increase in scale.
+    // glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+    // glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+    // glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR); // as we go down in object size (and so less pizels on the screen) please use the minmap we generate
+    // glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR); // no need to use the minmap for increase in scale.
 
-    // texture loading (pureley loading the data)
+    // // texture loading (pureley loading the data)
 
-    int width, height, nrChannels;
-    unsigned char *data = stbi_load("../assets/textures/container.jpg", &width, &height, &nrChannels, 0);
-    if(data)
-    {
-        // we found the file so no errors
-        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
-        glGenerateMipmap(GL_TEXTURE_2D); // generates mipmap (texture samples at half size for downscaling purposes) out of currently bound texture.
-    } else 
-    {
-        // we print to the console that something went wrong
-        std::cout << "something went wrong with texture load :(" << std::endl;
-    }
+    // int width, height, nrChannels;
+    // unsigned char *data = stbi_load("../assets/textures/container.jpg", &width, &height, &nrChannels, 0);
+    // if(data)
+    // {
+    //     // we found the file so no errors
+    //     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+    //     glGenerateMipmap(GL_TEXTURE_2D); // generates mipmap (texture samples at half size for downscaling purposes) out of currently bound texture.
+    // } else 
+    // {
+    //     // we print to the console that something went wrong
+    //     std::cout << "something went wrong with texture load :(" << std::endl;
+    // }
 
-    stbi_image_free(data); // we can tell stbi to let the image data go (good practice), since we have mapped it to our OpenGL context
+    // stbi_image_free(data); // we can tell stbi to let the image data go (good practice), since we have mapped it to our OpenGL context
 
     // render loop 
     while (!glfwWindowShouldClose(window)) {
@@ -154,9 +166,11 @@ int main() {
         firstShader.use();
 
         // creating our two triangles using two different vertex array objects...
-        glBindTexture(GL_TEXTURE_2D, texture);
-        glBindVertexArray(VertexArrayObject);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        glBindVertexArray(VertexArrayOne);
+        glDrawArrays(GL_TRIANGLES, 0, 3);
+
+        glBindVertexArray(VertexArrayTwo);
+        glDrawArrays(GL_TRIANGLES, 0, 3);
 
         // check and call events and swap the buffers
         glfwSwapBuffers(window);
@@ -164,8 +178,10 @@ int main() {
     }
 
     // release everything (this is technically optional)
-    glDeleteVertexArrays(1, &VertexArrayObject);
-    glDeleteBuffers(1, &VertexBufferObject);
+    glDeleteVertexArrays(1, &VertexArrayOne);
+    glDeleteBuffers(1, &VertexBufferOne);
+    glDeleteVertexArrays(1, &VertexArrayTwo);
+    glDeleteBuffers(1, &VertexBufferTwo);
 
     // glDeleteBuffers(1, &EBO);
     //glDeleteProgram(shaderProgram);

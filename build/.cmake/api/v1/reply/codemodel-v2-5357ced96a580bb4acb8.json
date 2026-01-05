@@ -113,14 +113,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CardGame::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CardGame-Debug-90d67c8a83b470e123be.json",
+					"jsonFile" : "target-CardGame-Debug-08b9a55169fe71e32fd5.json",
 					"name" : "CardGame",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "glad::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-glad-Debug-6047b6eca3595a4e5d93.json",
+					"jsonFile" : "target-glad-Debug-18f6fa32eed2d09808bd.json",
 					"name" : "glad",
 					"projectIndex" : 0
 				}

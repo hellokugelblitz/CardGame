@@ -88,12 +88,12 @@ clean: CMakeFiles/glad.dir/clean
 CMakeFiles/CardGame.dir/all: CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CardGame.dir/build.make CMakeFiles/CardGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CardGame.dir/build.make CMakeFiles/CardGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jack/Desktop/CardGame/CardGame/build/CMakeFiles --progress-num=1,2,3 "Built target CardGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jack/Desktop/CardGame/CardGame/build/CMakeFiles --progress-num=1,2,3,4 "Built target CardGame"
 .PHONY : CMakeFiles/CardGame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CardGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jack/Desktop/CardGame/CardGame/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jack/Desktop/CardGame/CardGame/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CardGame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jack/Desktop/CardGame/CardGame/build/CMakeFiles 0
 .PHONY : CMakeFiles/CardGame.dir/rule
@@ -105,7 +105,7 @@ CardGame: CMakeFiles/CardGame.dir/rule
 # codegen rule for target.
 CMakeFiles/CardGame.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CardGame.dir/build.make CMakeFiles/CardGame.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jack/Desktop/CardGame/CardGame/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target CardGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jack/Desktop/CardGame/CardGame/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target CardGame"
 .PHONY : CMakeFiles/CardGame.dir/codegen
 
 # clean rule for target.
@@ -120,7 +120,7 @@ CMakeFiles/CardGame.dir/clean:
 CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jack/Desktop/CardGame/CardGame/build/CMakeFiles --progress-num=4,5 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jack/Desktop/CardGame/CardGame/build/CMakeFiles --progress-num=5,6 "Built target glad"
 .PHONY : CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
@@ -137,7 +137,7 @@ glad: CMakeFiles/glad.dir/rule
 # codegen rule for target.
 CMakeFiles/glad.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jack/Desktop/CardGame/CardGame/build/CMakeFiles --progress-num=4,5 "Finished codegen for target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jack/Desktop/CardGame/CardGame/build/CMakeFiles --progress-num=5,6 "Finished codegen for target glad"
 .PHONY : CMakeFiles/glad.dir/codegen
 
 # clean rule for target.
