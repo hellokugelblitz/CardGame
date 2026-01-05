@@ -3,6 +3,7 @@ CardGame: \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o \
   CMakeFiles/CardGame.dir/src/main.cpp.o \
+  CMakeFiles/CardGame.dir/src/Shader.cpp.o \
   libglad.a \
   /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 \
   /usr/lib/x86_64-linux-gnu/libGLX.so \
@@ -36,7 +37,6 @@ CardGame: \
   /lib/x86_64-linux-gnu/libm.so.6 \
   /lib/x86_64-linux-gnu/libX11.so.6 \
   /lib64/ld-linux-x86-64.so.2 \
-  /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libgcc_s.so.1 \
   /lib/x86_64-linux-gnu/libxcb.so.1 \
   /lib/x86_64-linux-gnu/libXau.so.6 \
   /lib/x86_64-linux-gnu/libXdmcp.so.6 \
@@ -50,6 +50,8 @@ CardGame: \
 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o:
 
 CMakeFiles/CardGame.dir/src/main.cpp.o:
+
+CMakeFiles/CardGame.dir/src/Shader.cpp.o:
 
 libglad.a:
 
@@ -116,8 +118,6 @@ libglad.a:
 /lib/x86_64-linux-gnu/libX11.so.6:
 
 /lib64/ld-linux-x86-64.so.2:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libgcc_s.so.1:
 
 /lib/x86_64-linux-gnu/libxcb.so.1:
 

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/jack/Desktop/CardGame/CardGame/src/Shader.cpp" "CMakeFiles/CardGame.dir/src/Shader.cpp.o" "gcc" "CMakeFiles/CardGame.dir/src/Shader.cpp.o.d"
   "/home/jack/Desktop/CardGame/CardGame/src/main.cpp" "CMakeFiles/CardGame.dir/src/main.cpp.o" "gcc" "CMakeFiles/CardGame.dir/src/main.cpp.o.d"
   "" "CardGame" "gcc" "CMakeFiles/CardGame.dir/link.d"
   )

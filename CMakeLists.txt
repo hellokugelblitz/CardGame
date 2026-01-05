@@ -18,6 +18,7 @@ include_directories(
 # Add your main executable
 add_executable(CardGame
     src/main.cpp
+    src/Shader.cpp
 )
 
 # Compile GLAD as a separate C library

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CardGame.dir/link.d"
+  "CMakeFiles/CardGame.dir/src/Shader.cpp.o"
+  "CMakeFiles/CardGame.dir/src/Shader.cpp.o.d"
   "CMakeFiles/CardGame.dir/src/main.cpp.o"
   "CMakeFiles/CardGame.dir/src/main.cpp.o.d"
   "CardGame"

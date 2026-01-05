@@ -6,6 +6,8 @@
 
 #include <iostream>
 
+#include <Shader.h>
+
 // helper input function definitions
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -92,9 +94,9 @@ int main() {
     unsigned int fragmentShader = generateFrag(fragmentShaderSource);
     unsigned int fragmentShaderGreen = generateFrag(fragmentShaderSourceGreen);
 
-    // CREATING SHADER PROGRAM
-    unsigned int shaderProgram = generateShaderProgram(fragmentShader, vertexShader);
-    unsigned int shaderProgramGreen = generateShaderProgram(fragmentShaderGreen, vertexShader);
+    // CREATING SHADER PROGRAM WITH OUR SHADER CLASS
+    Shader firstShader("../shaders/shaderlearningv.glsl", "../shaders/shaderlearningf.glsl");
+    Shader secondShader("../shaders/shaderlearningv.glsl", "../shaders/greentest.glsl");
 
     // vector specification
     float triangle_one[] = {
@@ -156,14 +158,16 @@ int main() {
         glClear(GL_COLOR_BUFFER_BIT);
 
         // triangles
-        glUseProgram(shaderProgram);
+        // glUseProgram(shaderProgram);
+        firstShader.use();
 
         // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
         glBindVertexArray(VertexArrayOne);
         // glBindBuffer(GL_ARRAY_BUFFER, VertexBufferOne);
         glDrawArrays(GL_TRIANGLES, 0, 3);
 
-        glUseProgram(shaderProgramGreen);
+        // glUseProgram(shaderProgramGreen);
+        secondShader.use();
 
         glBindVertexArray(VertexArrayTwo);
         // glBindBuffer(GL_ARRAY_BUFFER, VertexBufferTwo);
@@ -181,7 +185,7 @@ int main() {
     glDeleteBuffers(1, &VertexBufferTwo);
 
     // glDeleteBuffers(1, &EBO);
-    glDeleteProgram(shaderProgram);
+    //glDeleteProgram(shaderProgram);
 
     // close window and terminate stuff
     glfwDestroyWindow(window);

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/CardGame.dir/link.d CMakeFiles/CardGame.dir/src/main.cpp.o -o CardGame  libglad.a /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/CardGame.dir/link.d CMakeFiles/CardGame.dir/src/main.cpp.o CMakeFiles/CardGame.dir/src/Shader.cpp.o -o CardGame  libglad.a /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so
