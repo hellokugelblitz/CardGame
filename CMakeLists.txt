@@ -13,6 +13,7 @@ find_package(OpenGL REQUIRED)
 # Include directories (GLAD + any headers)
 include_directories(
     include        # for glad/glad.h and KHR/khrplatform.h
+    include/thirdparty
 )
 
 # Add your main executable

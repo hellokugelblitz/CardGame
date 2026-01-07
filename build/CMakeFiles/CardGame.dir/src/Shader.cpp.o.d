@@ -2,8 +2,8 @@ CMakeFiles/CardGame.dir/src/Shader.cpp.o: \
  /home/jack/Desktop/CardGame/CardGame/src/Shader.cpp \
  /usr/include/stdc-predef.h \
  /home/jack/Desktop/CardGame/CardGame/include/Shader.h \
- /home/jack/Desktop/CardGame/CardGame/include/glad/glad.h \
- /home/jack/Desktop/CardGame/CardGame/include/KHR/khrplatform.h \
+ /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glad/glad.h \
+ /home/jack/Desktop/CardGame/CardGame/include/thirdparty/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

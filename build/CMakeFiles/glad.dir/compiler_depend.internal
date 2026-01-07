@@ -3,8 +3,8 @@
 
 CMakeFiles/glad.dir/src/glad.c.o
  /home/jack/Desktop/CardGame/CardGame/src/glad.c
- /home/jack/Desktop/CardGame/CardGame/include/KHR/khrplatform.h
- /home/jack/Desktop/CardGame/CardGame/include/glad/glad.h
+ /home/jack/Desktop/CardGame/CardGame/include/thirdparty/KHR/khrplatform.h
+ /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glad/glad.h
  /usr/include/alloca.h
  /usr/include/dlfcn.h
  /usr/include/endian.h

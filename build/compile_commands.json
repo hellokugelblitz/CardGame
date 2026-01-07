@@ -1,25 +1,25 @@
 [
 {
   "directory": "/home/jack/Desktop/CardGame/CardGame/build",
-  "command": "/usr/bin/cc  -I/home/jack/Desktop/CardGame/CardGame/include -g -o CMakeFiles/glad.dir/src/glad.c.o -c /home/jack/Desktop/CardGame/CardGame/src/glad.c",
+  "command": "/usr/bin/cc  -I/home/jack/Desktop/CardGame/CardGame/include -I/home/jack/Desktop/CardGame/CardGame/include/thirdparty -g -o CMakeFiles/glad.dir/src/glad.c.o -c /home/jack/Desktop/CardGame/CardGame/src/glad.c",
   "file": "/home/jack/Desktop/CardGame/CardGame/src/glad.c",
   "output": "CMakeFiles/glad.dir/src/glad.c.o"
 },
 {
   "directory": "/home/jack/Desktop/CardGame/CardGame/build",
-  "command": "/usr/bin/c++  -I/home/jack/Desktop/CardGame/CardGame/include -g -std=gnu++20 -o CMakeFiles/CardGame.dir/src/main.cpp.o -c /home/jack/Desktop/CardGame/CardGame/src/main.cpp",
+  "command": "/usr/bin/c++  -I/home/jack/Desktop/CardGame/CardGame/include -I/home/jack/Desktop/CardGame/CardGame/include/thirdparty -g -std=gnu++20 -o CMakeFiles/CardGame.dir/src/main.cpp.o -c /home/jack/Desktop/CardGame/CardGame/src/main.cpp",
   "file": "/home/jack/Desktop/CardGame/CardGame/src/main.cpp",
   "output": "CMakeFiles/CardGame.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/jack/Desktop/CardGame/CardGame/build",
-  "command": "/usr/bin/c++  -I/home/jack/Desktop/CardGame/CardGame/include -g -std=gnu++20 -o CMakeFiles/CardGame.dir/src/Shader.cpp.o -c /home/jack/Desktop/CardGame/CardGame/src/Shader.cpp",
+  "command": "/usr/bin/c++  -I/home/jack/Desktop/CardGame/CardGame/include -I/home/jack/Desktop/CardGame/CardGame/include/thirdparty -g -std=gnu++20 -o CMakeFiles/CardGame.dir/src/Shader.cpp.o -c /home/jack/Desktop/CardGame/CardGame/src/Shader.cpp",
   "file": "/home/jack/Desktop/CardGame/CardGame/src/Shader.cpp",
   "output": "CMakeFiles/CardGame.dir/src/Shader.cpp.o"
 },
 {
   "directory": "/home/jack/Desktop/CardGame/CardGame/build",
-  "command": "/usr/bin/c++  -I/home/jack/Desktop/CardGame/CardGame/include -g -std=gnu++20 -o CMakeFiles/CardGame.dir/src/stb_image.cpp.o -c /home/jack/Desktop/CardGame/CardGame/src/stb_image.cpp",
+  "command": "/usr/bin/c++  -I/home/jack/Desktop/CardGame/CardGame/include -I/home/jack/Desktop/CardGame/CardGame/include/thirdparty -g -std=gnu++20 -o CMakeFiles/CardGame.dir/src/stb_image.cpp.o -c /home/jack/Desktop/CardGame/CardGame/src/stb_image.cpp",
   "file": "/home/jack/Desktop/CardGame/CardGame/src/stb_image.cpp",
   "output": "CMakeFiles/CardGame.dir/src/stb_image.cpp.o"
 }

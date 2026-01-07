@@ -52,8 +52,8 @@ CMakeFiles/glad.dir/src/glad.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/jack/Desktop/CardGame/CardGame/include/glad/glad.h \
- /home/jack/Desktop/CardGame/CardGame/include/KHR/khrplatform.h \
+ /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glad/glad.h \
+ /home/jack/Desktop/CardGame/CardGame/include/thirdparty/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

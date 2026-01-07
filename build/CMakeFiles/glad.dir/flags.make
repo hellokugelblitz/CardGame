@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/jack/Desktop/CardGame/CardGame/include
+C_INCLUDES = -I/home/jack/Desktop/CardGame/CardGame/include -I/home/jack/Desktop/CardGame/CardGame/include/thirdparty
 
 C_FLAGS = -g
 
