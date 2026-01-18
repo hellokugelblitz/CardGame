@@ -11,6 +11,7 @@ uniform mat4 projection;
 void main()
 {
     // should be read right to left
+    // gl_Position is in NDC Normalized Device Coordinates
     gl_Position = projection * view * model * vec4(aPos, 1.0f);
     TexCoord = aTexCoord;
 };

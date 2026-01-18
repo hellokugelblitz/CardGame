@@ -5,11 +5,206 @@ CMakeFiles/CardGame.dir/src/Shader.cpp.o: /home/jack/Desktop/CardGame/CardGame/s
   /home/jack/Desktop/CardGame/CardGame/include/Shader.h \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/KHR/khrplatform.h \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glad/glad.h \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/common.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_exponential.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_vector_relational.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/exponential.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vector_relational.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/_fixes.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/compute_common.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_common.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_geometric.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec1.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec1.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/geometric.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x3.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x4.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x2.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x3.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x4.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x2.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x3.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x4.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x3_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x4_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x2_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x3_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x4_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x2_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x3_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x4_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x3_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x4_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x2_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x3_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x4_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x2_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x3_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x4_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_matrix.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat2x3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat2x4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat3x2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat3x3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat3x4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat4x2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat4x3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat4x4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/matrix.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/compute_vector_relational.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/_vectorize.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/compute_vector_decl.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x2.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec2.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec3.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec4.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_int_sized.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_uint_sized.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x2_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x2_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool2_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool3_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool4_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double2_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double3_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double4_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float2_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float3_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float4_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int2_sized.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int3_sized.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int4_sized.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint2_sized.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint3_sized.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint4.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint4_sized.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/simd/platform.h \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/_fixes.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_integer.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_packing.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_trigonometric.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/qualifier.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_half.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_half.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/fwd.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/glm.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_relational.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_relational.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_float.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_quat.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_quat.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_geometric.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_geometric.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_common.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_common.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_double.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_double_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_float.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_float_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_transform.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_transform.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_trigonometric.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_trigonometric.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool1.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool1_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double1.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double1_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float1.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float1_precision.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int1.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int1_sized.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_relational.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_relational.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint1.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint1_sized.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_clip_space.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_clip_space.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_projection.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_projection.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_transform.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_transform.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_constants.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_constants.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/constants.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/constants.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/matrix_transform.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/matrix_transform.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/epsilon.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/epsilon.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/quaternion.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/quaternion.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/vec1.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/type_ptr.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/type_ptr.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/integer.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat2x2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/packing.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/trigonometric.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vec2.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vec3.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vec4.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
+  /usr/include/c++/13/array \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/algorithmfwd.h \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/basic_ios.h \
@@ -18,18 +213,20 @@ CMakeFiles/CardGame.dir/src/Shader.cpp.o: /home/jack/Desktop/CardGame/CardGame/s
   /usr/include/c++/13/bits/basic_string.tcc \
   /usr/include/c++/13/bits/char_traits.h \
   /usr/include/c++/13/bits/charconv.h \
-  /usr/include/c++/13/bits/codecvt.h \
   /usr/include/c++/13/bits/concept_check.h \
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/enable_special_members.h \
+  /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
-  /usr/include/c++/13/bits/fstream.tcc \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/hashtable.h \
+  /usr/include/c++/13/bits/hashtable_policy.h \
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
   /usr/include/c++/13/bits/istream.tcc \
@@ -45,6 +242,7 @@ CMakeFiles/CardGame.dir/src/Shader.cpp.o: /home/jack/Desktop/CardGame/CardGame/s
   /usr/include/c++/13/bits/move.h \
   /usr/include/c++/13/bits/nested_exception.h \
   /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/node_handle.h \
   /usr/include/c++/13/bits/ostream.tcc \
   /usr/include/c++/13/bits/ostream_insert.h \
   /usr/include/c++/13/bits/postypes.h \
@@ -56,72 +254,108 @@ CMakeFiles/CardGame.dir/src/Shader.cpp.o: /home/jack/Desktop/CardGame/CardGame/s
   /usr/include/c++/13/bits/ranges_util.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
-  /usr/include/c++/13/bits/sstream.tcc \
+  /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_heap.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_tempbuf.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/cfloat \
+  /usr/include/c++/13/climits \
   /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cmath \
   /usr/include/c++/13/compare \
   /usr/include/c++/13/concepts \
   /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cstring \
   /usr/include/c++/13/cwchar \
   /usr/include/c++/13/cwctype \
   /usr/include/c++/13/debug/assertions.h \
   /usr/include/c++/13/debug/debug.h \
   /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/ext/alloc_traits.h \
   /usr/include/c++/13/ext/atomicity.h \
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
-  /usr/include/c++/13/fstream \
+  /usr/include/c++/13/functional \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/limits \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/pstl_config.h \
-  /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
   /usr/include/c++/13/system_error \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/limits.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/locale.h \
+  /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -134,9 +368,21 @@ CMakeFiles/CardGame.dir/src/Shader.cpp.o: /home/jack/Desktop/CardGame/CardGame/s
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
@@ -182,16 +428,16 @@ CMakeFiles/CardGame.dir/src/Shader.cpp.o: /home/jack/Desktop/CardGame/CardGame/s
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
@@ -206,12 +452,18 @@ CMakeFiles/CardGame.dir/src/Shader.cpp.o: /home/jack/Desktop/CardGame/CardGame/s
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 CMakeFiles/CardGame.dir/src/main.cpp.o: /home/jack/Desktop/CardGame/CardGame/src/main.cpp \
+  /home/jack/Desktop/CardGame/CardGame/include/Game.h \
+  /home/jack/Desktop/CardGame/CardGame/include/ResourceManager.h \
   /home/jack/Desktop/CardGame/CardGame/include/Shader.h \
+  /home/jack/Desktop/CardGame/CardGame/include/Texture.h \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/KHR/khrplatform.h \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glad/glad.h \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/common.hpp \
@@ -349,17 +601,6 @@ CMakeFiles/CardGame.dir/src/main.cpp.o: /home/jack/Desktop/CardGame/CardGame/src
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/fwd.hpp \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/glm.hpp \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_constants.hpp \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_constants.inl \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/constants.hpp \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/constants.inl \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_clip_space.hpp \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_clip_space.inl \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_projection.hpp \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_projection.inl \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_transform.hpp \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_transform.inl \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_relational.hpp \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_relational.inl \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
@@ -390,13 +631,24 @@ CMakeFiles/CardGame.dir/src/main.cpp.o: /home/jack/Desktop/CardGame/CardGame/src
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_relational.inl \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint1.hpp \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint1_sized.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_clip_space.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_clip_space.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_projection.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_projection.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_transform.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_transform.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_constants.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_constants.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/constants.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/constants.inl \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/matrix_transform.hpp \
+  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/matrix_transform.inl \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/epsilon.hpp \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/epsilon.inl \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/quaternion.hpp \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/quaternion.inl \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/vec1.hpp \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/matrix_transform.hpp \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/matrix_transform.inl \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/type_ptr.hpp \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/type_ptr.inl \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/integer.hpp \
@@ -406,7 +658,6 @@ CMakeFiles/CardGame.dir/src/main.cpp.o: /home/jack/Desktop/CardGame/CardGame/src
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vec2.hpp \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vec3.hpp \
   /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vec4.hpp \
-  /home/jack/Desktop/CardGame/CardGame/include/thirdparty/stb_image/stb_image.h \
   /usr/include/GLFW/glfw3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -424,7 +675,6 @@ CMakeFiles/CardGame.dir/src/main.cpp.o: /home/jack/Desktop/CardGame/CardGame/src
   /usr/include/c++/13/bits/basic_string.tcc \
   /usr/include/c++/13/bits/char_traits.h \
   /usr/include/c++/13/bits/charconv.h \
-  /usr/include/c++/13/bits/codecvt.h \
   /usr/include/c++/13/bits/concept_check.h \
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
@@ -434,7 +684,6 @@ CMakeFiles/CardGame.dir/src/main.cpp.o: /home/jack/Desktop/CardGame/CardGame/src
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
-  /usr/include/c++/13/bits/fstream.tcc \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -468,7 +717,6 @@ CMakeFiles/CardGame.dir/src/main.cpp.o: /home/jack/Desktop/CardGame/CardGame/src
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/specfun.h \
-  /usr/include/c++/13/bits/sstream.tcc \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_function.h \
   /usr/include/c++/13/bits/stl_algo.h \
@@ -480,8 +728,11 @@ CMakeFiles/CardGame.dir/src/main.cpp.o: /home/jack/Desktop/CardGame/CardGame/src
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_map.h \
+  /usr/include/c++/13/bits/stl_multimap.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
+  /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
@@ -519,7 +770,6 @@ CMakeFiles/CardGame.dir/src/main.cpp.o: /home/jack/Desktop/CardGame/CardGame/src
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
-  /usr/include/c++/13/fstream \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/ios \
@@ -527,13 +777,12 @@ CMakeFiles/CardGame.dir/src/main.cpp.o: /home/jack/Desktop/CardGame/CardGame/src
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
   /usr/include/c++/13/limits \
+  /usr/include/c++/13/map \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/pstl_config.h \
-  /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
-  /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
@@ -653,10 +902,8 @@ CMakeFiles/CardGame.dir/src/main.cpp.o: /home/jack/Desktop/CardGame/CardGame/src
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
@@ -868,15 +1115,105 @@ CMakeFiles/CardGame.dir/src/Shader.cpp.o:
 
 /lib/x86_64-linux-gnu/libmd.so.0:
 
-/lib/x86_64-linux-gnu/libc.so.6:
-
 /lib/x86_64-linux-gnu/libXau.so.6:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h:
 
 /usr/lib/x86_64-linux-gnu/Scrt1.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h:
 
 /usr/include/c++/13/math.h:
+
+/lib/x86_64-linux-gnu/libc.so.6:
+
+/usr/include/c++/13/bits/stl_map.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/Texture.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/Game.h:
+
+/home/jack/Desktop/CardGame/CardGame/src/main.cpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a:
+
+/usr/lib/x86_64-linux-gnu/crtn.o:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+CMakeFiles/CardGame.dir/src/stb_image.cpp.o:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/13/bits/stl_multimap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
@@ -888,17 +1225,51 @@ CMakeFiles/CardGame.dir/src/Shader.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/wchar.h:
 
 /usr/include/strings.h:
 
 /usr/include/string.h:
 
+/lib/x86_64-linux-gnu/libmvec.so.1:
+
+/usr/include/stdlib.h:
+
+/usr/include/pthread.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/math.h:
+
+/usr/include/locale.h:
+
 /usr/include/linux/limits.h:
 
+/usr/include/features.h:
+
+/usr/include/errno.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
+
+/usr/include/ctype.h:
+
 /usr/include/c++/13/vector:
+
+/usr/include/c++/13/type_traits:
 
 /usr/include/c++/13/tr1/special_function_util.h:
 
@@ -918,275 +1289,25 @@ CMakeFiles/CardGame.dir/src/Shader.cpp.o:
 
 /usr/include/c++/13/tr1/beta_function.tcc:
 
-/usr/include/c++/13/functional:
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/usr/include/c++/13/ext/aligned_buffer.h:
+/usr/include/c++/13/string:
 
-/usr/include/c++/13/cstdint:
-
-/usr/include/c++/13/cmath:
-
-/lib/x86_64-linux-gnu/libX11.so.6:
-
-/usr/include/c++/13/climits:
-
-/usr/include/c++/13/bits/vector.tcc:
-
-/usr/include/c++/13/bits/stl_vector.h:
-
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
-/usr/include/c++/13/bits/stl_heap.h:
-
-/usr/include/c++/13/bits/stl_bvector.h:
-
-/usr/lib/x86_64-linux-gnu/libglfw.so.3.3:
-
-/usr/include/c++/13/bits/stl_algo.h:
-
-/usr/include/c++/13/bits/erase_if.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vec4.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vec3.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vec2.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/trigonometric.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/type_ptr.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/type_ptr.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/matrix_transform.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/vec1.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/quaternion.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint1_sized.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint1.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_relational.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int1_sized.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float1.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool1_precision.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool1.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_trigonometric.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_transform.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_float_precision.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_double.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_common.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_common.hpp:
-
-/usr/include/c++/13/stdlib.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_geometric.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_geometric.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_quat.inl:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_quat.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_projection.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_projection.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_constants.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/glm.hpp:
-
-/usr/lib/x86_64-linux-gnu/libGLX.so:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/fwd.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_half.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_half.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/qualifier.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_packing.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/simd/platform.h:
-
-/usr/include/assert.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint4.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint3_sized.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint2_sized.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int3_sized.hpp:
-
-/usr/lib/x86_64-linux-gnu/libc_nonshared.a:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int3.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int2_sized.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int2.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/matrix_transform.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_trigonometric.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float4.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float3.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double4.hpp:
-
-/lib/x86_64-linux-gnu/libxcb.so.1:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double3_precision.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/c++/13/bits/enable_special_members.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double2_precision.hpp:
-
-/lib/x86_64-linux-gnu/libbsd.so.0:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double4_precision.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool4.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool3.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool2_precision.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x2_precision.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_uint_sized.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec4.inl:
-
-/usr/include/c++/13/bits/unordered_map.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec3.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec2.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec2.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/compute_vector_decl.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/_vectorize.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/compute_vector_relational.hpp:
-
-/usr/include/c++/13/tr1/exp_integral.tcc:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat4x2.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint2.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat2x4.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat2x3.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x4.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x3_precision.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_integer.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x3.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x3.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool4_precision.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x2_precision.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x2.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int4_sized.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double3.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x4_precision.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float2_precision.hpp:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/lib/x86_64-linux-gnu/libXdmcp.so.6:
-
-/usr/include/c++/13/exception:
-
-/lib/x86_64-linux-gnu/libmvec.so.1:
-
-/usr/include/stdlib.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x3_precision.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec3.hpp:
-
-/usr/include/wctype.h:
-
-/usr/include/sched.h:
-
-/usr/include/pthread.h:
-
-/usr/include/locale.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double1.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/home/jack/Desktop/CardGame/CardGame/src/main.cpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/integer.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_float.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x4.hpp:
-
-/usr/include/c++/13/bits/specfun.h:
-
-/usr/include/c++/13/bits/streambuf.tcc:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_double_precision.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat3x3.hpp:
-
-/usr/include/c++/13/bits/max_size_type.h:
+/usr/include/c++/13/stdexcept:
 
 /usr/include/c++/13/pstl/pstl_config.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat3x2.hpp:
+/usr/include/c++/13/numbers:
 
-/usr/include/c++/13/new:
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
-/usr/include/c++/13/ext/alloc_traits.h:
+/usr/include/c++/13/limits:
+
+/usr/include/c++/13/iostream:
+
+/usr/include/c++/13/iosfwd:
+
+/usr/include/c++/13/ios:
 
 /usr/include/limits.h:
 
@@ -1194,347 +1315,107 @@ CMakeFiles/CardGame.dir/src/Shader.cpp.o:
 
 /usr/include/c++/13/initializer_list:
 
-/usr/include/c++/13/iostream:
+/usr/include/c++/13/functional:
 
 /usr/include/c++/13/ext/type_traits.h:
 
 /usr/include/c++/13/ext/string_conversions.h:
 
-/usr/include/c++/13/cctype:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
-/usr/lib/x86_64-linux-gnu/libOpenGL.so:
+/usr/include/c++/13/ext/atomicity.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x2.hpp:
+/usr/include/c++/13/ext/alloc_traits.h:
 
-/usr/include/errno.h:
+/usr/include/c++/13/ext/aligned_buffer.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/constants.hpp:
+/lib/x86_64-linux-gnu/libXdmcp.so.6:
 
-/usr/include/c++/13/bits/functional_hash.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_matrix.inl:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
-/usr/include/c++/13/cstdio:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h:
-
-/usr/include/c++/13/fstream:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/c++/13/bits/stl_pair.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x4.hpp:
-
-/usr/include/c++/13/concepts:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat4x3.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
-
-/usr/include/c++/13/clocale:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/13/bits/utility.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/matrix.hpp:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/c++/13/bits/uses_allocator_args.h:
-
-/usr/include/c++/13/bits/stl_uninitialized.h:
-
-/usr/include/c++/13/bits/new_allocator.h:
-
-/usr/include/c++/13/bits/algorithmfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/c++/13/bits/uses_allocator.h:
-
-/usr/include/c++/13/bits/postypes.h:
-
-/usr/include/c++/13/bits/std_abs.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x2.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/13/numbers:
-
-/usr/include/c++/13/bits/ostream.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/c++/13/bits/stl_iterator.h:
-
-/usr/include/c++/13/bits/functexcept.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double1_precision.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/13/ios:
-
-/usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
-
-/usr/include/stdio.h:
-
-/usr/include/c++/13/cerrno:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_clip_space.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x4.hpp:
-
-/usr/include/c++/13/bits/concept_check.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x4.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool3_precision.hpp:
-
-/usr/include/c++/13/bits/exception_ptr.h:
-
-/usr/include/c++/13/bits/istream.tcc:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x4.hpp:
-
-/usr/include/c++/13/bits/cxxabi_forced.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/GLFW/glfw3.h:
-
-/usr/include/c++/13/bits/streambuf_iterator.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x3_precision.hpp:
-
-/usr/include/c++/13/cassert:
-
-/usr/include/c++/13/bits/cpp_type_traits.h:
-
-/usr/include/c++/13/string:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/13/bits/hashtable_policy.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/compute_common.hpp:
-
-/usr/include/c++/13/compare:
-
-/usr/include/c++/13/system_error:
-
-/usr/include/c++/13/tr1/hypergeometric.tcc:
-
-/usr/include/c++/13/bits/range_access.h:
-
-/usr/include/c++/13/bits/move.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_relational.hpp:
-
-/usr/include/features-time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/geometric.hpp:
-
-/usr/include/c++/13/string_view:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x2.hpp:
-
-/usr/include/c++/13/istream:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
-
-/usr/include/c++/13/tr1/modified_bessel_func.tcc:
-
-/usr/include/c++/13/bits/ranges_base.h:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-CMakeFiles/CardGame.dir/src/stb_image.cpp.o:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/c++/13/stdexcept:
+/usr/include/c++/13/exception:
 
 /usr/include/linux/errno.h:
 
 /usr/include/c++/13/debug/debug.h:
 
-/home/jack/Desktop/CardGame/CardGame/src/stb_image.cpp:
-
-/usr/include/c++/13/bits/memoryfwd.h:
-
-/usr/include/c++/13/bits/locale_facets.h:
-
-/usr/include/c++/13/bits/localefwd.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/KHR/khrplatform.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/Shader.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/constants.inl:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/13/bits/basic_string.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glad/glad.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_int_sized.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec4.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/c++/13/bit:
-
-/usr/include/alloca.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x2.hpp:
-
-/usr/include/c++/13/bits/hash_bytes.h:
-
-/usr/include/c++/13/cstring:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x3.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_transform.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint3.hpp:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/13/iosfwd:
-
-/usr/lib/x86_64-linux-gnu/libm.so:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool2.hpp:
-
-/usr/include/c++/13/bits/ranges_cmp.h:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
 /usr/include/c++/13/cwctype:
 
-/usr/include/c++/13/bits/sstream.tcc:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/c++/13/backward/binders.h:
+/usr/include/c++/13/cwchar:
 
-/usr/include/features.h:
+/usr/include/c++/13/cstdlib:
+
+/usr/include/c++/13/cstdio:
+
+/usr/include/c++/13/cstdint:
+
+/usr/include/c++/13/cstddef:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/compare:
+
+/usr/include/c++/13/cmath:
+
+/usr/include/c++/13/clocale:
+
+/lib/x86_64-linux-gnu/libX11.so.6:
+
+/usr/include/c++/13/climits:
+
+/usr/include/c++/13/cerrno:
+
+/usr/include/c++/13/cctype:
+
+/usr/include/c++/13/bits/vector.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/13/bits/utility.h:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
+/usr/include/c++/13/bits/uses_allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/c++/13/bits/string_view.tcc:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x3_precision.hpp:
+/usr/include/GLFW/glfw3.h:
 
-/usr/include/c++/13/bits/locale_facets.tcc:
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/c++/13/type_traits:
+/usr/include/c++/13/bits/streambuf_iterator.h:
 
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+/usr/include/c++/13/bits/stl_vector.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float3_precision.hpp:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/simd/platform.h:
 
-/usr/include/c++/13/bits/codecvt.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int2_sized.hpp:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_relational.inl:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x3_precision.hpp:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_constants.hpp:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint2_sized.hpp:
 
-/usr/include/c++/13/bits/basic_ios.h:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x2_precision.hpp:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_quat.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/time64.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int3_sized.hpp:
 
-/usr/include/wchar.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x3.inl:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x2_precision.hpp:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x3_precision.hpp:
 
-/usr/include/c++/13/streambuf:
+/usr/include/features-time64.h:
 
-/usr/include/c++/13/bits/memory_resource.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_relational.hpp:
 
-/usr/include/c++/13/cfloat:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float1.hpp:
 
-/usr/include/c++/13/tuple:
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a:
 
-/usr/include/c++/13/bits/nested_exception.h:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float1_precision.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x3.hpp:
-
-/usr/include/c++/13/bits/ios_base.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_float.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint4_sized.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x2.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
-
-/usr/include/ctype.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/epsilon.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x4_precision.hpp:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int3.hpp:
 
 /usr/include/stdint.h:
 
@@ -1544,277 +1425,229 @@ CMakeFiles/CardGame.dir/src/stb_image.cpp.o:
 
 /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/setup.hpp:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float4_precision.hpp:
-
 /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x3.hpp:
 
-/usr/include/c++/13/unordered_map:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float4_precision.hpp:
 
-/usr/include/c++/13/bits/allocator.h:
+/usr/lib/x86_64-linux-gnu/libglfw.so.3.3:
 
-/usr/include/c++/13/bits/uniform_int_dist.h:
+/usr/include/c++/13/bits/stl_algo.h:
 
-/usr/include/c++/13/bits/locale_classes.tcc:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double4.hpp:
 
-/usr/include/c++/13/bits/invoke.h:
-
-/usr/include/c++/13/ostream:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x4.hpp:
-
-/usr/include/c++/13/cstddef:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_transform.hpp:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
-/usr/include/c++/13/bits/fstream.tcc:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x2.hpp:
-
-/usr/include/c++/13/bits/refwrap.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float2.hpp:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_quat.inl:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/c++/13/cstdlib:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float2.hpp:
 
-/usr/include/c++/13/bits/stl_algobase.h:
+/usr/include/c++/13/bits/unordered_map.h:
 
-/usr/include/c++/13/bits/stl_construct.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec3.inl:
 
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/type_ptr.inl:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat2x2.hpp:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool2_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_common.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_uint_sized.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x3_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec4.inl:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat2x2.hpp:
 
-/lib/x86_64-linux-gnu/libm.so.6:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x2_precision.hpp:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x2.inl:
+/usr/include/x86_64-linux-gnu/bits/sched.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x2.inl:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_int_sized.hpp:
 
-/usr/include/c++/13/bits/requires_hosted.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec4.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/wctype.h:
 
-/usr/include/c++/13/limits:
+/usr/include/sched.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x3.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x4_precision.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/epsilon.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_transform.inl:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/c++/13/cwchar:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x3_precision.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int1.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x4.hpp:
-
-/usr/include/c++/13/bits/locale_classes.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/common.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
-
-/usr/include/math.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec3.hpp:
 
 /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x4.inl:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_packing.inl:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec2.inl:
 
-/usr/include/c++/13/bits/charconv.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/compute_vector_decl.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec2.hpp:
 
-/usr/include/c++/13/sstream:
+/usr/lib/x86_64-linux-gnu/libOpenGL.so:
 
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+/home/jack/Desktop/CardGame/CardGame/include/ResourceManager.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x2.hpp:
 
-/usr/include/c++/13/bits/hashtable.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/_vectorize.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_geometric.hpp:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_clip_space.inl:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x2_precision.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool4_precision.hpp:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_trigonometric.inl:
+/usr/include/c++/13/tr1/hypergeometric.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+/usr/include/c++/13/bits/range_access.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/compute_vector_relational.hpp:
 
-/usr/include/c++/13/ext/atomicity.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat2x3.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double1_precision.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+/lib/x86_64-linux-gnu/libbsd.so.0:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool4.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a:
-
-/usr/lib/x86_64-linux-gnu/crtn.o:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/c++/13/bits/exception_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/packing.hpp:
-
-/usr/include/c++/13/typeinfo:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int4.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat4x4.hpp:
-
-/usr/include/c++/13/bits/ranges_util.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
-
-/usr/include/c++/13/bits/std_function.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x4_precision.hpp:
-
-/usr/include/c++/13/bits/char_traits.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
-
-/usr/include/c++/13/bits/node_handle.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x3.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_exponential.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_vector_relational.inl:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x4.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/exponential.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vector_relational.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/_fixes.hpp:
-
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_common.inl:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double4_precision.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_geometric.inl:
 
-/usr/include/c++/13/array:
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x2.inl:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec1.inl:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_trigonometric.inl:
 
-CMakeFiles/CardGame.dir/src/main.cpp.o:
+/usr/include/c++/13/bits/stl_uninitialized.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x3.hpp:
+/usr/include/c++/13/bits/new_allocator.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat3x4.hpp:
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x3.hpp:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat4x3.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int4_sized.hpp:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float2_precision.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/c++/13/bits/hashtable.h:
+
+/usr/include/c++/13/tr1/exp_integral.tcc:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat4x2.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_half.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x4.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/_fixes.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/c++/13/bits/enable_special_members.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double2_precision.hpp:
+
+/usr/include/c++/13/bits/postypes.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float3.hpp:
+
+/usr/include/c++/13/bits/basic_string.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x2_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/stb_image/stb_image.h:
+
+/usr/include/c++/13/debug/assertions.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x4_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool3.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x4_precision.hpp:
+
+/lib/x86_64-linux-gnu/libm.so.6:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x2.inl:
 
 /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x2.hpp:
 
 /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x3.inl:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x4.hpp:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/qualifier.hpp:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x3.inl:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x2_precision.hpp:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/quaternion.inl:
+/usr/include/c++/13/cstring:
 
-/usr/include/c++/13/bits/stringfwd.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x3.inl:
 
-/usr/include/c++/13/bits/iterator_concepts.h:
+/usr/include/c++/13/bits/hash_bytes.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x4.inl:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_relational.inl:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_exponential.inl:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x2.hpp:
+CMakeFiles/CardGame.dir/src/main.cpp.o:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x3.hpp:
+
+/usr/include/c++/13/concepts:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x4.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vec4.hpp:
+
+/usr/include/c++/13/map:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/13/string_view:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/geometric.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/Shader.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/KHR/khrplatform.h:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/common.hpp:
+
+/usr/include/c++/13/bits/stl_construct.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_float.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint4_sized.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x2.hpp:
 
 /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double2.hpp:
 
@@ -1824,14 +1657,428 @@ CMakeFiles/CardGame.dir/src/main.cpp.o:
 
 /home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x3.hpp:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x4_precision.hpp:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_vector_relational.inl:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x2_precision.hpp:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint3_sized.hpp:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/stb_image/stb_image.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int2.hpp:
 
-/usr/include/c++/13/debug/assertions.h:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_projection.hpp:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x4_precision.hpp:
+/usr/include/c++/13/istream:
 
-/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x3_precision.hpp:
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x2.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_double.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/bits/algorithmfwd.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_common.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint2.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat2x4.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vec3.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x3_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/glm.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_matrix.inl:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float1_precision.hpp:
+
+/usr/include/c++/13/unordered_map:
+
+/usr/include/c++/13/bits/allocator.h:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/exponential.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x4.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x2.hpp:
+
+/usr/include/alloca.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x3.hpp:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x3_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x4.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool3_precision.hpp:
+
+/usr/include/c++/13/bits/exception_ptr.h:
+
+/usr/include/c++/13/bits/istream.tcc:
+
+/usr/include/c++/13/bits/stl_tree.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float3_precision.hpp:
+
+/lib/x86_64-linux-gnu/libxcb.so.1:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double3_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x4.hpp:
+
+/usr/include/c++/13/ostream:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x4.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x4_precision.hpp:
+
+/usr/include/c++/13/bits/invoke.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x3.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x3.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/compute_common.hpp:
+
+/usr/include/c++/13/bits/hashtable_policy.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x2.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x2.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x3.hpp:
+
+/usr/include/c++/13/new:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat3x2.hpp:
+
+/usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/c++/13/bits/locale_facets.tcc:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x3_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x3.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/func_integer.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vector_relational.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x3.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat3x4.hpp:
+
+/usr/include/stdc-predef.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/constants.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x2.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double3.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float3x4_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_half.inl:
+
+/usr/lib/x86_64-linux-gnu/libGLX.so:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/fwd.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x2.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_relational.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/type_ptr.hpp:
+
+/usr/include/c++/13/stdlib.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_geometric.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_common.inl:
+
+/usr/include/c++/13/bits/max_size_type.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat3x3.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_double_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_float_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_transform.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_transform.hpp:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_float4.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/matrix_transform.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_trigonometric.hpp:
+
+/usr/include/c++/13/bits/move.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_trigonometric.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool1.hpp:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool1_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int1_sized.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_double1.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int1.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_relational.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_constants.hpp:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_relational.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/quaternion.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint1.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint1_sized.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_clip_space.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_projection.inl:
+
+/home/jack/Desktop/CardGame/CardGame/src/stb_image.cpp:
+
+/usr/include/c++/13/bits/memoryfwd.h:
+
+/usr/include/c++/13/tuple:
+
+/usr/include/c++/13/cfloat:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/scalar_constants.inl:
+
+/usr/include/c++/13/bits/functional_hash.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/constants.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/matrix_transform.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/time.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_transform.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/epsilon.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x4_precision.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/epsilon.inl:
+
+/usr/include/c++/13/bits/stringfwd.h:
+
+/usr/include/c++/13/bits/iterator_concepts.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x4.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/quaternion.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/gtc/vec1.hpp:
+
+/usr/include/c++/13/bits/ios_base.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/quaternion_float.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat4x4.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/integer.hpp:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/usr/include/c++/13/typeinfo:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/packing.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/trigonometric.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/vec2.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint3.hpp:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_transform.inl:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_int4.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/mat4x4.hpp:
+
+/usr/include/c++/13/bits/ranges_util.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_uint4.hpp:
+
+/usr/include/assert.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_vec1.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat3x2.inl:
+
+/usr/include/c++/13/array:
+
+/usr/include/c++/13/backward/binders.h:
+
+/usr/include/c++/13/bit:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/usr/include/c++/13/bits/alloc_traits.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/detail/type_mat2x4.inl:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double4x4.hpp:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_clip_space.hpp:
+
+/usr/include/c++/13/bits/concept_check.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/c++/13/cassert:
+
+/usr/include/c++/13/bits/cpp_type_traits.h:
+
+/usr/include/c++/13/bits/cxxabi_forced.h:
+
+/usr/include/c++/13/bits/erase_if.h:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/13/bits/exception_defines.h:
+
+/usr/include/c++/13/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/c++/13/ext/numeric_traits.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double3x4.hpp:
+
+/usr/include/c++/13/bits/locale_classes.h:
+
+/usr/include/c++/13/bits/uniform_int_dist.h:
+
+/usr/include/c++/13/bits/locale_classes.tcc:
+
+/usr/include/c++/13/bits/locale_facets.h:
+
+/usr/include/c++/13/streambuf:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float2x2_precision.hpp:
+
+/usr/include/c++/13/bits/memory_resource.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/13/bits/node_handle.h:
+
+/usr/include/c++/13/bits/ostream.tcc:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/usr/lib/x86_64-linux-gnu/libm.so:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/vector_bool2.hpp:
+
+/usr/include/c++/13/bits/ranges_cmp.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glad/glad.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
+
+/usr/include/c++/13/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/13/bits/ranges_base.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_double2x2.hpp:
+
+/usr/include/c++/13/bits/refwrap.h:
+
+/usr/include/c++/13/bits/streambuf.tcc:
+
+/usr/include/c++/13/bits/specfun.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/ext/matrix_float4x4_precision.hpp:
+
+/usr/include/c++/13/bits/char_traits.h:
+
+/usr/include/c++/13/bits/std_function.h:
+
+/usr/include/c++/13/bits/stl_algobase.h:
+
+/home/jack/Desktop/CardGame/CardGame/include/thirdparty/glm/matrix.hpp:
+
+/usr/include/c++/13/bits/stl_function.h:
+
+/usr/include/c++/13/bits/stl_heap.h:

@@ -1,0 +1,176 @@
+What does the GPU do?
+
+It produces images!!! 
+It is a raster image making machine.
+
+Scene data > GPU > Output (seen on display)
+
+What is scene data?
+
+Lets assume its a collection of triangles.
+
+The scene data is loaded into GPU memory, only THEN can the gpu
+render that data.
+
+So reallly it goes CPU Memory -> GPU Memory -> GPU -> Output
+
+High Level in the GPU Step:
+Transformations are applied to scene data, moving it to canonical
+view volume.
+
+Canonical view volume or "NDC -- normalized device coordinates" (-1.0 > 1.0) this is 2D SCREEN SPACE, not 3d world space.
+
+Then rasterization takes vector data and turns it into pixel data.
+THEN for each of these pixels we need to compute the color.
+
+This is a gross oversimplification since there are many more steps
+i.e. aplha blending.
+
+Rasterization is programmed PHYSICALLY into the GPU and cannot be
+programmed.
+
+Vertex shader code looks at one vertex at a time.
+Vertex shader will run in parralel but each instance needs to be transformed into
+the normalized view space.
+
+Then there is a step called primitive assembly forms the triangle to give to the rasterizer
+
+There is the tesselation shader, which takes more complex shapes and breaks them
+down further into more triangles
+
+The geometry shader gets data right before the rasterizer
+
+---------------------- CPU Application stuff ------------------------------
+
+CPU Applications control all this stuff, its the brains.
+You collect your scene data and logic in the CPU.
+
+We will create data on the CPU memory and it will be pushed to the
+GPU memory.
+
+The CPU will also set our shader program code for Vertex and Fragment shading
+
+Oftentimes we dont precompile shader code. It is compiled on the GPU as its ran.
+
+CPU Application will also set the parameters (uniform variables)
+
+Graphics API is the interface for the CPU talking to the GPU and setting these
+parameters and doing all that.
+
+There are different APIS for interacting with the GPU:
+    - OpenGL
+    - Vulkan (is even lower level than OpenGL giving more control)
+    - DirectX (Works only on windows devices)
+
+---------------------- Step By Step ----------------------------
+
+What is a context?
+A place to store all the information our graphics library needs to render
+    - Shaders
+    - Bound buffers
+    - Bound textures (and to what units)
+    - OpenGL condfiguration settings
+
+GL Primitives
+    - Points
+    - Lines
+    - Line Strips
+    - Line Loops
+    - Triangles
+    - etc.
+
+They are all, however, defined by vertices.
+
+Verticies can contain multiple attributes such as 
+    - (ofc position)
+    - color
+    - texture information
+
+This will all be passed over to the GPU memory. Which passes data to the vertex shader.
+WE get to define how we want the GPU to interperate that data (how many attributes and in what order)
+
+Winding order will depend on render settings
+
+So then we will allocate the data on the GPU
+    - We create a buffer that contains some data and we get the index of that buffer on GPU memory
+    - Then we bind it, this is the address we are writing to right now
+    - Then we send the data to the buffer (which buffer is not an arg, its whatever is currently bound)
+    - There can only be one buffer bound at a time
+
+Memory allocation on the GPU happens when be push the data to the buffer
+
+Its good to think about OpenGL as a state machine, or like a "class" that is holding a bunch of information at
+any given moment.
+
+There are reasons for this binding structure
+You can bind a buffer if you want and then you can do operations related to it.
+You dont have to set the entire contents of a buffer at once.
+
+---------------------- Shader Programs ----------------------------
+
+Vertex Shader (gets scene data, does transformations) -> Rasterizer (converts to pixels) -> Fragment shader (does colors)
+
+Vertex Shader:
+-------------------------------------
+attribute vec3 pos;
+attribute vec4 clr;
+
+uniform mat4 trans;
+
+varying vec4 vcolor; // how we pass items along to the fragment shader.
+
+void main()
+{
+    gl_Position = vec4(pos, 1);
+    vcolor = clr;
+}
+-------------------------------------
+
+^^ Vertex shader runs ONCE for EACH vertex in the scene.
+It does not create geometry.
+
+HLSL is similar to GLSL and is used in Directx etc.
+
+This code runs in parralel on the GPU.
+
+gl_Position is a very special output of the vertex shader. 
+gl_Position goes out to the rasterizer.
+gl_Position is a position in the canonical view volume.
+
+doing something like gl_Position = trans * vec4(pos, 1) would be a simple matrix transform.
+
+Difference between attriutes and uniforms
+    - Attributes come from VBO and VAO
+    - Uniform values are uniformly applied to all verticies and they are 
+
+
+Fragment Shader:
+-------------------------------------
+precision meiump float; // we use this precision for setting color values
+
+varying vec4 vcolor;
+
+void main()
+{
+    gl_FragColor = vcolor;
+}
+-------------------------------------
+
+There is something confusing here? If we have a triangle with 3 different color fragments
+which color values am I getting out of the 3 different verticies?
+
+Often we set values PER VERTEX and we interpolate between them in the fragment shader.
+so if we have a triangle with the 
+
+OpenGL allows different shaders
+    - geometry shaders
+    - tesselation shaders
+
+Shaders need to be created...
+Then Compiled...
+Then Linked...
+
+Compilation may produce different binaries for different GPUS
+
+---------------------- Rendering ----------------------------
+

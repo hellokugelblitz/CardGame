@@ -1,272 +1,113 @@
-// glad is needed since modern openGL is not a library you link against directly... 
-// the openGL driver exposes function pointers at runtime so glad works as an EXPOSERRRR
-
-// Third party stuff
-#include <glad/glad.h> 
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <stb_image/stb_image.h>
 
-// gl math stuff
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
+#include "Game.h"
+#include "ResourceManager.h"
 
-// c++ standard libs
 #include <iostream>
-#include <cmath>
 
-#include <Shader.h>
-
-// helper input function definitions
+// GLFW function declarations
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-void processInput(GLFWwindow *window);
+void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
 
-// program settings
-const unsigned int WIDTH = 800;
-const unsigned int HEIGHT = 600;
+// The Width of the screen
+const unsigned int SCREEN_WIDTH = 800;
+// The height of the screen
+const unsigned int SCREEN_HEIGHT = 600;
 
-// for system output messages
-int success;
-char infoLog[512];
+Game Breakout(SCREEN_WIDTH, SCREEN_HEIGHT);
 
-// Controls
-const unsigned int WIREFRAME_KEY = GLFW_KEY_GRAVE_ACCENT;
-float owlX = 0.5f;
-float owlDirection = 90;
-
-int main() {
-    // glfw window init with some slight error "handling"
-    if (!glfwInit()) {
-        std::cerr << "Failed to initialize GLFW\n";
-        return -1;
-    }
-
-    // some configurations... here we are telling it to using glfw to use version 3.3
+int main(int argc, char *argv[])
+{
+    glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // tell GLFW we want to explicitly use the core-profile.
-    
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+#ifdef __APPLE__
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+#endif
+    glfwWindowHint(GLFW_RESIZABLE, false);
 
-    // creating the window object... holds all the "windowing" data and is passed frquently as an arg for glfw's other functions
-    GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "Game", nullptr, nullptr);
-    if (!window) {
-        std::cerr << "Failed to create GLFW window\n";
-        glfwTerminate();
-        return -1;
-    }
-
+    GLFWwindow* window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Breakout", nullptr, nullptr);
     glfwMakeContextCurrent(window);
 
-    // doing this so that OpenGL knows how we want to display the data coordinates with respect to the window.
-    glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
-    
-    // init for GLAD...
-    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
-        std::cerr << "Failed to initialize GLAD\n";
+    // glad: load all OpenGL function pointers
+    // ---------------------------------------
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+    {
+        std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
 
-    // CREATING SHADER PROGRAM WITH OUR SHADER CLASS, weve abstracted this nicely so its super clean.
-    Shader firstShader("../shaders/shaderlearningv.glsl", "../shaders/shaderlearningf.glsl");
-    Shader secondShader("../shaders/shaderlearningv.glsl", "../shaders/greentest.glsl");
+    glfwSetKeyCallback(window, key_callback);
+    glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
-    // vector specification
-    float sky_verticies[] = {
-        // positions          // texture coords
-        -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
-        0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
-        0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-        0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-        -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-        -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
+    // OpenGL configuration
+    // --------------------
+    glViewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-        -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-        0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-        0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-        0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-        -0.5f,  0.5f,  0.5f,  0.0f, 1.0f,
-        -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+    // initialize game
+    // ---------------
+    Breakout.Init();
 
-        -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-        -0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-        -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-        -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-        -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-        -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+    // deltaTime variables
+    // -------------------
+    float deltaTime = 0.0f;
+    float lastFrame = 0.0f;
 
-        0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-        0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-        0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-        0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-        0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-        0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-
-        -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-        0.5f, -0.5f, -0.5f,  1.0f, 1.0f,
-        0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-        0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-        -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-        -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-
-        -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-        0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-        0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-        0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-        -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
-        -0.5f,  0.5f, -0.5f,  0.0f, 1.0f
-    };
-
-
-    // valid ordering: 0, 3, 1 & 3, 2, 1  (respecting counter clockwise winding)
-    unsigned int index_buffer_data[] = {
-        0,3,1,
-        3,2,1
-    };
-
-    // Generate our vertex specification stuff
-    unsigned int VertexBufferObject, VertexArrayObject, ElementBufferObject;
-    unsigned int owlVBO, owlVAO, owlEBO;
-    glGenVertexArrays(1, &VertexArrayObject);
-    glGenBuffers(1, &VertexBufferObject);
-    glGenBuffers(1, &ElementBufferObject);
-
-    // ------------------------ QUAD ------------------------
-
-    // bind our VAO and VBO
-    glBindVertexArray(VertexArrayObject); // tell openGL that we are now using this array
-    glBindBuffer(GL_ARRAY_BUFFER, VertexBufferObject);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ElementBufferObject);
-
-    // RAINBOWS
-
-    // defining position attribute
-    // This line here is super important. It captures the currently bound GL_ARRAY_BUFFER and saves it as a reference, linking the two
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
-
-    // defining texture attribute
-    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3* sizeof(float)));
-    glEnableVertexAttribArray(1);
-
-    // insert data into the buffer
-    glBufferData(GL_ARRAY_BUFFER, sizeof(sky_verticies), sky_verticies, GL_STATIC_DRAW);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(index_buffer_data), index_buffer_data, GL_STATIC_DRAW);
-
-    glBindVertexArray(0); // unbinds the vertex array entirely.
-
-    // ------------------------ Textures ------------------------
-
-    // texture object creation and settings
-
-    unsigned int textureOne; // unsigned int array
-    glGenTextures(1, &textureOne); // pass in the address of the ID.
-    glActiveTexture(GL_TEXTURE0);
-    glBindTexture(GL_TEXTURE_2D, textureOne); // bind similarly to the VAO and VBO objects in context
-
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR); // as we go down in object size (and so less pizels on the screen) please use the minmap we generate
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR); // no need to use the minmap for increase in scale.
-
-    // texture loading (pureley loading the data)
-
-    stbi_set_flip_vertically_on_load(1); // since images are generally written from top left, and OpenGL renders from bottom left.
-
-    // quad texture
-    int width, height, nrChannels;
-    unsigned char *data = stbi_load("../assets/textures/container.jpg", &width, &height, &nrChannels, 0);
-
-    if(data)
+    while (!glfwWindowShouldClose(window))
     {
-        // we found the file so no errors
-        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
-        glGenerateMipmap(GL_TEXTURE_2D); // generates mipmap (texture samples at half size for downscaling purposes) out of currently bound texture.
-    }
+        // calculate delta time
+        // --------------------
+        float currentFrame = glfwGetTime();
+        deltaTime = currentFrame - lastFrame;
+        lastFrame = currentFrame;
+        glfwPollEvents();
 
-    stbi_image_free(data); // we can tell stbi to let the image data go (good practice), since we have mapped it to our OpenGL context
+        // manage user input
+        // -----------------
+        Breakout.ProcessInput(deltaTime);
 
-    // render loop 
-    while (!glfwWindowShouldClose(window)) {
-        // input handling (at the start of every iteration)
-        processInput(window);
-    
-        // basic rendering commands go here
-        glClearColor(0.2f, 0.3f, 0.4f, 1.0f); // background color this is "clearing" any empty space with this color
-        glEnable(GL_DEPTH_TEST);
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-        glEnable(GL_BLEND);
+        // update game state
+        // -----------------
+        Breakout.Update(deltaTime);
 
-        // triangles
-        // glUseProgram(shaderProgram); << how you do things normally.
-        firstShader.use();
-        glUniform1i(glGetUniformLocation(firstShader.ID, "objectTexture"), 0);
+        // render
+        // ------
+        glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT);
+        Breakout.Render();
 
-        // Model Matrix -- Objects
-        glm::mat4 model = glm::mat4(1.0f);
-        model = glm::rotate(model, (float)glfwGetTime() * glm::radians(50.0f), glm::vec3(1.0f, 1.0f, 0.0f)); 
-        glUniformMatrix4fv(glGetUniformLocation(firstShader.ID, "model"), 1, GL_FALSE, glm::value_ptr(model));
-
-        // View Matrix -- Camera
-        glm::mat4 view = glm::mat4(1.0f);
-        view = glm::translate(view, glm::vec3(0.0f, 0.0f, -5.0f)); // camera translations are done with the view matrix, and should be inverted.
-        glUniformMatrix4fv(glGetUniformLocation(firstShader.ID, "view"), 1, GL_FALSE, glm::value_ptr(view));
-
-        // Projection Matrix -- Perpesctive filter
-        glm::mat4 projection;
-        projection = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 100.0f);
-        glUniformMatrix4fv(glGetUniformLocation(firstShader.ID, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
-
-        //Viewport transform
-
-
-        // creating our two triangles using two different vertex array objects...
-        glActiveTexture(GL_TEXTURE0);
-        glBindTexture(GL_TEXTURE_2D, textureOne);
-    
-        glBindVertexArray(VertexArrayObject);
-        // glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-        glDrawArrays(GL_TRIANGLES, 0, 36);
-
-        // check and call events and swap the buffers
         glfwSwapBuffers(window);
-        glfwPollEvents(); // generally enables checks for keyboard and mouse inputs
     }
 
-    // release everything (this is technically optional)
-    glDeleteVertexArrays(1, &VertexArrayObject);
-    glDeleteBuffers(1, &VertexBufferObject);
+    // delete all resources as loaded using the resource manager
+    // ---------------------------------------------------------
+    ResourceManager::Clear();
 
-    // glDeleteBuffers(1, &EBO);
-    //glDeleteProgram(shaderProgram);
-
-    // close window and terminate stuff
-    glfwDestroyWindow(window);
     glfwTerminate();
     return 0;
 }
 
-// ------------------------------ Input Function Definitions ---------------------------
+void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode)
+{
+    // when a user presses the escape key, we set the WindowShouldClose property to true, closing the application
+    if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
+        glfwSetWindowShouldClose(window, true);
+    if (key >= 0 && key < 1024)
+    {
+        if (action == GLFW_PRESS)
+            Breakout.Keys[key] = true;
+        else if (action == GLFW_RELEASE)
+            Breakout.Keys[key] = false;
+    }
+}
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
-    glViewport(0,0,width,height);
-}
-
-void processInput(GLFWwindow *window)
-{   
-    // example of user input handling.
-    if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-    {
-        glfwSetWindowShouldClose(window, true);
-    }
-
-    // W makes the window into wireframe mode...
-    if(glfwGetKey(window, WIREFRAME_KEY) == GLFW_PRESS)
-    {
-        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-    }
-    if(glfwGetKey(window, WIREFRAME_KEY) == GLFW_RELEASE)
-    {
-        glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
-    }
+    // make sure the viewport matches the new window dimensions; note that width and 
+    // height will be significantly larger than specified on retina displays.
+    glViewport(0, 0, width, height);
 }
